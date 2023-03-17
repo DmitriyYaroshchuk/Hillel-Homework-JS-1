@@ -1,0 +1,17 @@
+body {
+padding-top: 300px;
+    box-sizing: border-box;
+}
+.div {
+    max-width: 200px;
+    width: 100%;
+    min-height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: 2px solid cadetblue;
+    overflow: hidden;
+}
+img {
+    max-width: 100%;
+    min-height: auto;
+}

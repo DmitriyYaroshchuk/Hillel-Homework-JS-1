@@ -1,0 +1,47 @@
+.wrapper {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-top: 150px;
+}
+.wrap-slider {
+    position: relative;
+}
+.slider {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    max-height: 500px;
+    overflow: hidden;
+}
+.photo {
+    max-width: 100%;
+    min-height: auto;
+}
+.button {
+    max-width: 100px;
+    width: 100%;
+    padding: 7px 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+    position: absolute;
+    bottom: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.button-left {
+    display: none;
+    left: 20%;
+    border: 2px solid green;
+    background-color: greenyellow;
+}
+.button-right {
+    right: 20%;
+    border: 2px solid indigo;
+    background-color: darkviolet;
+}

@@ -1,0 +1,43 @@
+.wrapper {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    position: relative;
+}
+.input {
+    max-width: 350px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 9px 0 9px 9px;
+    border: 3px solid darkcyan;
+    color: cadetblue;
+    transition: all ease-in-out 0.3s;
+}
+.input:focus {
+    outline: none;
+    border-color: deepskyblue;
+}
+
+.div {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid darkturquoise;
+    background-color: darkslategray;
+    color: darkturquoise;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 35%;
+    box-sizing: border-box;
+    visibility: hidden;
+}

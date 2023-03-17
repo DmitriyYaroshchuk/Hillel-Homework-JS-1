@@ -1,0 +1,43 @@
+body {
+    background-color: darkcyan;
+}
+.wrapper {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-top: 150px;
+}
+.list-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto 30px;
+}
+.button {
+    padding: 0;
+    border: 2px solid deepskyblue;
+    border-radius: 50%;
+    background-color: transparent;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+
+    margin-bottom: 30px;
+}
+.count-click {
+    color: snow;
+}
+
+ul {
+    padding: 0;
+}
+li {
+    list-style-type: none;
+    text-align: center;
+}
+p {
+    margin: 0;
+}
